@@ -6,7 +6,7 @@
 
 <img src="assets/bhirabhat/avatar-bhirabhat.jpg" width="120" style="border-radius:50%;" alt="Bhirabhat Klomjit"/>
 
-<h1 align="center">Bhirabhat Klomjit (Pae)</h1>
+<h1 align="center">Bhirabhat Klomjit (Pae , PaYae)</h1>
 <h3 align="center">Robotics & Automation Engineering Student</h3>
 <p align="center">Robotics Integration · Industrial Systems · Embedded Control</p>
 <p align="center">FIBO, KMUTT · 3rd Year</p>
