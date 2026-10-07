@@ -113,7 +113,7 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 *Year 1 · Semester 1*
 
 - Designed the prototype concept and mechanical structure in SolidWorks, including the conveyor-based transfer mechanism and motor integration.
-- Selected and integrated the motors, electrical controls, and basic firmware, and worked with teammates on mechanical assembly and prototype testing.
+- Selected and integrated the motors and electrical controls, developed the basic firmware, and worked with teammates on mechanical assembly and prototype testing.
 - Built as an early functional prototype to demonstrate the transfer concept; usability and safety were not yet developed to a practical product level.
 
 <p align="center">
@@ -125,7 +125,7 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 
 *Year 1 · Semester 2*
 
-- Designed the machine's control electronics in EasyEDA, including timer-IC timing and PWM circuits, motor-control stages, PCB layouts, and a custom power supply.
+- Designed the machine's control electronics in EasyEDA, including 555-timer timing and PWM circuits, motor-control stages, PCB layouts, and a custom power supply.
 - Selected components, designed and sized the custom power supply, assembled and wired the electronics, then tuned and tested the whole machine.
 
 <p align="center"><img src="assets/bhirabhat/squash-ball-main-board-schematic.png" width="480" alt="Squash ball machine main-board schematic"/></p>
@@ -141,7 +141,7 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 *Year 2 · Semester 1*
 
 - Developed the Raspberry Pi Pico control system, including the circuit and PCB, wiring, power, pH sensing, LCD, motor control, and firmware.
-- Tested the prototype on an actual CNC machine coolant tank, including pH sensor noise observed while the motor was running.
+- Tested the prototype on the coolant tank of an actual CNC machine and observed pH sensor noise while the motor was running.
 
 <p align="center">
   <img src="assets/bhirabhat/oil-skimmer-prototype.jpg" height="380" alt="Drum oil skimmer prototype"/>
@@ -152,7 +152,7 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 
 *Year 2 · Semester 2*
 
-- Designed the complete electrical/control system around an STM32 microcontroller, from component selection and EasyEDA schematics to control-box layout, wiring, assembly, and hardware testing.
+- Designed the complete electrical/control system around an STM32G474RE, from component selection and EasyEDA schematics to control-box layout, wiring, assembly, and hardware testing.
 - Integrated 24 V sensors, encoder feedback, opto-isolated inputs, relay and pneumatic outputs, the motor drive, and emergency-stop circuitry.
 - Developed the firmware for sensor handling, homing, safety behavior, and command handling, and debugged the complete system on hardware.
 - My contribution focused on electrical/control and integration; the mechanical arm structure was developed by other team members.
