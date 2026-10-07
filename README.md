@@ -14,7 +14,6 @@
 <p align="center">
   <a href="mailto:bhirabhat.klom@mail.kmutt.ac.th"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://github.com/Peaxtt"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-  <br><code>LINE ID: bhirabhat</code>
 </p>
 
 </div>
@@ -220,9 +219,9 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 ### Contact
 
 <p align="center">
-  <a href="mailto:bhirabhat.klom@mail.kmutt.ac.th"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://github.com/Peaxtt"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-  <br><code>LINE ID: bhirabhat</code>
+  Feel free to get in touch.<br><br>
+  <b>Email</b> &nbsp; <a href="mailto:bhirabhat.klom@mail.kmutt.ac.th">bhirabhat.klom@mail.kmutt.ac.th</a><br>
+  <b>LINE ID</b> &nbsp; bhirabhat
 </p>
 
 <!-- TODO: Add Resume PDF and LinkedIn links when available. -->
