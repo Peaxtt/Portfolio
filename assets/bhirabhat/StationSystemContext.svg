@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Station system context</title>
+  <desc id="desc">Station data layer, marked as my part, connects sensing, another system, the robot, and the operator dashboard. The operator dashboard is integrated and deployed by me; other components are labeled as other teams.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#475569"/>
+    </marker>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #172033; }
+      .other { fill: #ffffff; stroke: #64748b; stroke-width: 2; }
+      .station { fill: #e8f1ff; stroke: #2563eb; stroke-width: 3; }
+      .line { fill: none; stroke: #475569; stroke-width: 3; marker-start: url(#arrow); marker-end: url(#arrow); }
+      .directed { fill: none; stroke: #475569; stroke-width: 3; marker-end: url(#arrow); }
+    </style>
+  </defs>
+  <rect width="1280" height="720" fill="#ffffff"/>
+
+  <!-- Relationships -->
+  <path class="directed" d="M 330 360 H 405"/>
+  <path class="line" d="M 875 360 H 950"/>
+  <path class="line" d="M 640 210 V 270"/>
+  <path class="directed" d="M 640 450 V 510"/>
+
+  <!-- Other teams -->
+  <g>
+    <rect class="other" x="50" y="295" width="280" height="130" rx="12"/>
+    <text x="190" y="345" text-anchor="middle" font-size="24" font-weight="700">Sensing</text>
+    <text x="190" y="383" text-anchor="middle" font-size="17" fill="#64748b">other teams</text>
+  </g>
+  <g>
+    <rect class="other" x="950" y="295" width="280" height="130" rx="12"/>
+    <text x="1090" y="345" text-anchor="middle" font-size="24" font-weight="700">Other system</text>
+    <text x="1090" y="383" text-anchor="middle" font-size="17" fill="#64748b">other teams</text>
+  </g>
+  <g>
+    <rect class="other" x="480" y="80" width="320" height="130" rx="12"/>
+    <text x="640" y="130" text-anchor="middle" font-size="24" font-weight="700">Robot</text>
+    <text x="640" y="168" text-anchor="middle" font-size="17" fill="#64748b">other teams</text>
+  </g>
+  <g>
+    <rect class="other" x="480" y="510" width="320" height="130" rx="12"/>
+    <text x="640" y="560" text-anchor="middle" font-size="24" font-weight="700">Operator dashboard</text>
+    <text x="640" y="598" text-anchor="middle" font-size="17" fill="#64748b">integrated &amp; deployed by me</text>
+  </g>
+
+  <!-- My part -->
+  <g>
+    <rect class="station" x="405" y="270" width="470" height="180" rx="16"/>
+    <rect x="571" y="288" width="138" height="30" rx="15" fill="#2563eb"/>
+    <text x="640" y="309" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">my part</text>
+    <text x="640" y="354" text-anchor="middle" font-size="27" font-weight="700">Station data layer</text>
+    <text x="640" y="392" text-anchor="middle" font-size="19" fill="#334155">data handling · integration</text>
+  </g>
+</svg>
