@@ -201,16 +201,16 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 
 ### Technologies & Tools I’ve Worked With
 
-<sub>Practical exposure across projects; not a proficiency ranking.</sub>
+<sub>Tools and hands-on experience across projects; not a proficiency ranking.</sub>
 
 | Area | Technologies & Tools |
 |---|---|
-| **Robotics & Integration** | ![ROS 2](https://img.shields.io/badge/ROS%202-22314E?style=flat&logo=ros&logoColor=white) `micro-ROS` `TF2` `Nav2` `SLAM Toolbox / Localization` `LiDAR Integration` |
-| **Backend & Data** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) `Supabase` `MQTT` `WebSocket` `REST API` |
-| **Embedded & Control** | ![STM32](https://img.shields.io/badge/STM32-03234B?style=flat&logo=stmicroelectronics&logoColor=white) ![Raspberry Pi Pico](https://img.shields.io/badge/Raspberry%20Pi%20Pico-C51A4A?style=flat&logo=raspberrypi&logoColor=white) `C / C++` `Microcontroller Firmware` `555 / Relay Logic` `PWM Motor Control` |
-| **Electrical & Hardware** | `Circuit Design` `PCB Design & Assembly` `Power-Supply Design` `Control-Box Design & Wiring` `Component Selection` `Sensors / Encoders` `Relays / Motor Drivers` `Hardware Testing & Debugging` |
-| **CAD & Design Tools** | `SolidWorks` `EasyEDA` |
-| **Interfaces & Field Tools** | ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black) `Windows` `PowerShell` |
+| **Robotics & Integration** | ![ROS 2](https://img.shields.io/badge/ROS%202-22314E?style=flat&logo=ros&logoColor=white) `micro-ROS` `TF2` `Nav2` `SLAM Toolbox` `LiDAR` `Gazebo` `RViz` |
+| **Backend & Data** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) `Supabase` `MQTT` `WebSocket` `REST API` |
+| **Embedded & Control** | ![STM32](https://img.shields.io/badge/STM32-03234B?style=flat&logo=stmicroelectronics&logoColor=white) ![Raspberry Pi Pico](https://img.shields.io/badge/Raspberry%20Pi%20Pico-C51A4A?style=flat&logo=raspberrypi&logoColor=white) `C / C++` `Microcontroller Firmware` `555 Timer` `PWM Motor Control` |
+| **Electrical & Hardware** | `Circuit Design` `PCB Design & Assembly` `Power Supply Design` `Control-Box Wiring`<br>`Sensors & Encoders` `Relays & Motor Drivers` `Hardware Debugging` |
+| **CAD & EDA** | `SolidWorks` `EasyEDA` |
+| **Development & Deployment** | ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black) `Windows` `PowerShell` |
 
 ---
 
