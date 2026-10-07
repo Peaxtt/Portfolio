@@ -48,7 +48,7 @@ A LiDAR-based system for tracking wood piles so a wheel loader can handle them w
 - Defined and documented a read-only interface for the decision-algorithm team to read that state, and wrote an example client.
 - Connected the station layer to the robot's status messages over MQTT while keeping the integration read-only.
 - Developed a read-only validation dashboard (FastAPI, React) for checking pile, slot and robot data on a map, and deployed the stack on the station's Windows system with a health check and a verified deployment script.
-- Proposed and deployed a Station Monitor that brings station, LiDAR, network and robot health into one view; used Aruba controller data and field tests for network diagnostics and supported the vendor's final tuning.
+- Proposed and deployed a Station Monitor that brings station, LiDAR, network and robot health into one view; used network-controller data and field tests for network diagnostics and supported the vendor's final tuning.
 
 Deployed on the station and used in on-site tests with the real robot; still an R&D prototype.
 
@@ -125,7 +125,7 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 
 *Year 1 · Semester 2*
 
-- Designed the machine's control electronics in EasyEDA, including 555-timer timing and PWM circuits, motor-control stages, PCB layouts, and a custom power supply.
+- Designed the machine's control electronics in EasyEDA, including timer-IC timing and PWM circuits, motor-control stages, PCB layouts, and a custom power supply.
 - Selected components, designed and sized the custom power supply, assembled and wired the electronics, then tuned and tested the whole machine.
 
 <p align="center"><img src="assets/bhirabhat/squash-ball-main-board-schematic.png" width="480" alt="Squash ball machine main-board schematic"/></p>
@@ -152,7 +152,7 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 
 *Year 2 · Semester 2*
 
-- Designed the complete electrical/control system around an STM32G474RE, from component selection and EasyEDA schematics to control-box layout, wiring, assembly, and hardware testing.
+- Designed the complete electrical/control system around an STM32 microcontroller, from component selection and EasyEDA schematics to control-box layout, wiring, assembly, and hardware testing.
 - Integrated 24 V sensors, encoder feedback, opto-isolated inputs, relay and pneumatic outputs, the motor drive, and emergency-stop circuitry.
 - Developed the firmware for sensor handling, homing, safety behavior, and command handling, and debugged the complete system on hardware.
 - My contribution focused on electrical/control and integration; the mechanical arm structure was developed by other team members.
