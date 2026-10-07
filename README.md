@@ -45,7 +45,7 @@ Robotics & Automation Engineering student at **FIBO, KMUTT** with hands-on exper
 A LiDAR-based system for tracking wood piles so a wheel loader can handle them with less manual work. Processed LiDAR data and the decision algorithm come from other teams; I worked on the station-side layer that connects them to the robot and the operators.
 
 - Designed the database and state logic that turn processed LiDAR output into pile and storage-slot state.
-- Defined a read-only interface for the decision-algorithm team to read that state, with documentation and an example client.
+- Defined and documented a read-only interface for the decision-algorithm team to read that state, and wrote an example client.
 - Integrated the robot's status feed over MQTT with a deliberate safety boundary: the station layer reads robot status and publishes status only, and never sends commands to the robot.
 - Developed a read-only validation dashboard for checking pile, slot and robot data on a map, and deployed the stack on the station's Windows system with a health check and a verified deployment script.
 - Took part in on-site testing with the real robot (26 Sep 2026): traced interface problems with logs and live data, fixed those within my scope, and handed the rest to the owning teams.
