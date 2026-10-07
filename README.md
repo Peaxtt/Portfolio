@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="#about">About</a> &nbsp; | &nbsp; <a href="#experience">Experience</a> &nbsp; | &nbsp; <a href="#additional-work">Additional Work</a> &nbsp; | &nbsp; <a href="#projects">Projects</a> &nbsp; | &nbsp; <a href="#competitions">Competitions</a> &nbsp; | &nbsp; <a href="#tools">Tools</a> &nbsp; | &nbsp; <a href="#contact">Contact</a>
+<a href="#about">About</a> &nbsp; | &nbsp; <a href="#experience">Experience</a> &nbsp; | &nbsp; <a href="#additional-work">Additional Work</a> &nbsp; | &nbsp; <a href="#projects">Projects</a> &nbsp; | &nbsp; <a href="#competitions">Competitions &amp; Mentoring</a> &nbsp; | &nbsp; <a href="#tools">Tools</a> &nbsp; | &nbsp; <a href="#contact">Contact</a>
 
 <br>
 
@@ -67,11 +67,12 @@ Deployed on the station and used in on-site tests with the real robot; still an 
 
 *Dec 2025 — May 2026*
 
-Worked on the operator interface and robot integration for a warehouse AMR.
+- Developed the robot-interface web application for a warehouse AMR, covering manual control, mission execution, robot status, error and status handling, and operator workflows.
+- Built the ROS 2 action bridge that connects the web application to ROS 2, because the required action workflow could not be handled properly through the normal direct WebSocket approach, and integrated ROS 2 actions, topics, services, action feedback/results, and robot state.
+- Implemented safety behavior including dead-man control, a connection watchdog, stopping commands on disconnect, state-based command gating, and emergency-stop handling.
+- Tested and debugged on the real robot, including UI/state mismatch, action-feedback issues, repeated commands, disconnections, and safety edge cases.
 
-- Integrated operator controls and workflows with ROS 2 actions and robot state.
-- Implemented interface workflows for manual control and missions, and contributed software safety behavior.
-- Helped debug and integrate navigation-related features; core navigation, QR, Pure Pursuit, and docking algorithms were primarily developed by other team members.
+Core navigation, QR, Pure Pursuit, and docking algorithms were primarily developed by other team members; I helped test, debug, and integrate those features.
 
 <p align="center">
   <img src="assets/bhirabhat/Facobot-Robot.jpg" height="260" alt="FACOBOT AMR"/>
@@ -82,10 +83,8 @@ Worked on the operator interface and robot integration for a warehouse AMR.
 
 *Jun 2026 — Jul 2026*
 
-Contributed the SLAM/localization subsystem to a team project migrating a conventional PLC-based system toward ROS 2.
-
-- Generated maps, tuned localization, and integrated LiDAR, TF, odometry, and ROS 2 topics.
-- Integrated the subsystem with the team's simulation; the project was completed at simulation level.
+- Developed and integrated the SLAM/localization subsystem using SLAM Toolbox, including ROS 2 launch/configuration, topic remapping, LiDAR/TF integration, and map generation.
+- Tested and debugged the subsystem in Gazebo/RViz, addressing TF, mapping, localization, and LiDAR integration issues; real-robot tuning remains for the hardware-integration stage.
 
 <p align="center"><img src="assets/bhirabhat/Carver_SLAM.png" width="600" alt="Carver SLAM map and ROS 2 visualization"/></p>
 
@@ -99,7 +98,7 @@ Contributed the SLAM/localization subsystem to a team project migrating a conven
 
 *Jan 2026 — Mar 2026*
 
-Owned the GPS-to-robot-odometry alignment task and tested it with real hardware and data.
+Owned the GPS-to-robot-odometry alignment task and tested it with real hardware and data to align outdoor positioning with the robot's local odometry frame.
 
 - Worked on coordinate conversion, frame alignment, covariance handling, and integration of the alignment logic.
 
@@ -109,10 +108,27 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 
 ### Coursework & Robotics Projects
 
-#### FRA161 — Squash Ball Hitting Machine
+#### LiftEase — Patient Transfer Bed
 
-- Designed logic-control electronics using 555 timer and relay circuits; worked on the PCB, power supply, and joystick control.
-- Soldered, wired, tuned, and tested the physical machine.
+*Year 1 · Semester 1*
+
+- Designed the prototype concept and mechanical structure in SolidWorks, including the conveyor-based transfer mechanism and motor integration.
+- Selected and integrated the motors, electrical controls, and basic firmware, and worked with teammates on mechanical assembly and prototype testing.
+- Built as an early functional prototype to demonstrate the transfer concept; usability and safety were not yet developed to a practical product level.
+
+<p align="center">
+  <img src="assets/bhirabhat/LiftEase-CAD-Design.png" height="205" alt="LiftEase CAD design views"/>
+  <img src="assets/bhirabhat/Auto-Flip-Bed.jpg" height="205" alt="LiftEase transfer bed prototype"/>
+</p>
+
+#### Squash Ball Hitting Machine
+
+*Year 1 · Semester 2*
+
+- Designed the machine's control electronics in EasyEDA, including 555-timer timing/PWM circuits, relay/MOSFET motor-control stages, PCB layouts, and a custom power-supply section.
+- Selected components, calculated the power-supply design, assembled and wired the electronics, then tuned and tested the complete system on the physical machine.
+
+<p align="center"><img src="assets/bhirabhat/FRA163_MainBoard_Schematic.png" width="680" alt="Squash ball machine main-board schematic"/></p>
 
 <p align="center">
   <img src="assets/bhirabhat/Shooter-Joy.jpg" height="205" alt="Squash ball machine joystick"/>
@@ -120,18 +136,28 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
   <img src="assets/bhirabhat/Shooter-Y1-2.jpg" height="205" alt="Squash ball machine"/>
 </p>
 
-#### LiftEase — Patient Transfer Bed
+#### Drum Oil Skimmer for CNC Machine Coolant Tank
 
-Team project. Contributed to the mechanical structure, conveyor and motor selection, electrical controls, firmware, and directional control interface; participated in prototype assembly and testing.
+*Year 2 · Semester 1*
+
+- Developed the Raspberry Pi Pico-based control system, including circuit/PCB work, wiring, power, pH sensing, LCD interface, motor control, and firmware.
+- Integrated and tested the complete prototype under real operating conditions, including investigation of pH measurement noise observed while the motor was running.
 
 <p align="center">
-  <img src="assets/bhirabhat/LiftEase-CAD-Design.png" height="205" alt="LiftEase CAD design views"/>
-  <img src="assets/bhirabhat/Auto-Flip-Bed.jpg" height="205" alt="LiftEase transfer bed prototype"/>
+  <img src="assets/bhirabhat/Oil-Skimmer.jpg" height="380" alt="Drum oil skimmer prototype"/>
+  <img src="assets/bhirabhat/Oil-Skimmer-Scraper.jpg" height="380" alt="Drum oil skimmer scraper"/>
 </p>
 
 #### 1-DOF Pick-and-Place Arm
 
-Designed the electrical/control system, selected components, and wired the control box. Worked on STM32 firmware, safety circuits, and sensors; tested the system on hardware. My contribution was electrical and control, not the mechanical arm structure.
+*Year 2 · Semester 2*
+
+- Designed the complete electrical/control system around an STM32G474RE, from component selection and EasyEDA schematics to control-box layout, wiring, assembly, and hardware testing.
+- Integrated 24 V field sensors, encoder feedback, opto-isolated inputs, relay/pneumatic outputs, motor drive, emergency-stop circuitry, and panel controls.
+- Developed firmware for sensor handling, homing, safety/emergency behavior, and system state/command handling; debugged the complete system on hardware.
+- My contribution focused on electrical/control and integration; the mechanical arm structure was developed by other team members.
+
+<p align="center"><img src="assets/bhirabhat/1Dof_ControlBox_Schematic.png" width="680" alt="1-DOF arm control-box schematic"/></p>
 
 <p align="center">
   <img src="assets/bhirabhat/1DOF_full_electrical-box.jpg" height="245" alt="1-DOF arm electrical control box"/>
@@ -139,28 +165,34 @@ Designed the electrical/control system, selected components, and wired the contr
   <img src="assets/bhirabhat/1DOF-Assembly.jpg" height="245" alt="1-DOF pick-and-place assembly"/>
 </p>
 
-#### Grease Separator / Oil Skimmer
-
-Worked on control electronics and firmware, pH sensor integration, and display/indicator integration; tested the physical prototype.
-
-<p align="center">
-  <img src="assets/bhirabhat/Oil-Skimmer.jpg" height="380" alt="Oil skimmer prototype"/>
-  <img src="assets/bhirabhat/Oil-Skimmer-Scraper.jpg" height="380" alt="Oil skimmer scraper"/>
-</p>
-
 ---
 
 <a id="competitions"></a>
 
-### Competitions
+### Competitions & Mentoring
 
 #### ABU Robocon — Meihua
 
-Contributed to mobile-base software using ROS 2 and micro-ROS, integrated team members' software, and supported troubleshooting, testing, and tuning on the real robot.
+- Handled the main mobile-base software integration using ROS 2 and micro-ROS, connecting high-level commands, low-level control, robot feedback, and interfaces contributed by multiple team members.
+- Tested and tuned the real robot in workshop and field conditions, focusing on straight-line motion, yaw response, motor behavior, encoder reliability, and ROS integration.
+- Supported debugging of low-level behavior and communication issues while integrating the mobile-base software.
 
 <p align="center">
   <img src="assets/bhirabhat/ABU_test_real_field.jpg" height="360" alt="ABU Robocon robot field test"/>
   <img src="assets/bhirabhat/ABU_working_with_team.jpg" height="360" alt="ABU Robocon team testing"/>
+</p>
+
+#### Junior Botball Challenge — Robotics Competition Trainer
+
+*Jul 2026 — Aug 2026*
+
+- Trained and prepared a student robotics team in match strategy, route planning, teamwork, communication, and problem-solving under competition conditions.
+- Designed and used 40 competition-style training problems, ran mock competitions, and supported robot debugging and strategy adjustments.
+- The team received a Gold Award at the JBC Global Final 2026 in Beijing, China.
+
+<p align="center">
+  <img src="assets/bhirabhat/JBC1.jpg" height="300" alt="Junior Botball Challenge Global Final 2026 award stage"/>
+  <img src="assets/bhirabhat/JBC2.png" height="300" alt="Training a student team with a mock competition field"/>
 </p>
 
 ---
@@ -173,9 +205,11 @@ Contributed to mobile-base software using ROS 2 and micro-ROS, integrated team m
 
 | Area | Technologies & Tools |
 |---|---|
-| **Robotics & Integration** | ![ROS 2](https://img.shields.io/badge/ROS%202-22314E?style=flat&logo=ros&logoColor=white) `micro-ROS` `TF2` `Nav2` `SLAM / Localization` `LiDAR Integration` |
+| **Robotics & Integration** | ![ROS 2](https://img.shields.io/badge/ROS%202-22314E?style=flat&logo=ros&logoColor=white) `micro-ROS` `TF2` `Nav2` `SLAM Toolbox / Localization` `LiDAR Integration` |
 | **Backend & Data** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) `Supabase` `MQTT` `WebSocket` `REST API` |
-| **Embedded & Control** | ![STM32](https://img.shields.io/badge/STM32-03234B?style=flat&logo=stmicroelectronics&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=cplusplus&logoColor=white) ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=flat&logo=raspberrypi&logoColor=white) `555 / Relay Logic` `Sensors` `PLC Integration & Testing` |
+| **Embedded & Control** | ![STM32](https://img.shields.io/badge/STM32-03234B?style=flat&logo=stmicroelectronics&logoColor=white) ![Raspberry Pi Pico](https://img.shields.io/badge/Raspberry%20Pi%20Pico-C51A4A?style=flat&logo=raspberrypi&logoColor=white) `C / C++` `Microcontroller Firmware` `555 / Relay Logic` `PWM Motor Control` |
+| **Electrical & Hardware** | `Circuit Design` `PCB Design & Assembly` `Power-Supply Design` `Control-Box Design & Wiring` `Component Selection` `Sensors / Encoders` `Relays / Motor Drivers` `Hardware Testing & Debugging` |
+| **CAD & Design Tools** | `SolidWorks` `EasyEDA` |
 | **Interfaces & Field Tools** | ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black) `Windows` `PowerShell` |
 
 ---
