@@ -38,16 +38,18 @@ Robotics & Automation Engineering student at **FIBO, KMUTT** with hands-on exper
 
 ### Selected Engineering Experience
 
-#### Industrial Station Integration
+#### FIBO — Pile Monitoring & Industrial Station Integration
 
-*Apr 2026 — Present · Flagship project*
+*Apr 2026 — Present · R&D prototype for an industrial wood-handling site*
 
-Integrated station-side software for an industrial monitoring project, focusing on data handling, operator-facing data validation, and coordination across robotics and software subsystems.
+A LiDAR-based system for tracking wood piles so a wheel loader can handle them with less manual work. Processed LiDAR data and the decision algorithm come from other teams; I worked on the station-side layer that connects them to the robot and the operators.
 
-- Defined database behavior for pile and slot data; integrated processed LiDAR output from another team into the station layer.
-- Integrated and deployed the read-only data-validation dashboard on the station’s Windows system.
-- Coordinated interfaces with the robot and decision-algorithm teams. The Worker exchanges robot status through MQTT and does not send commands to the robot.
-- Supported system-level testing and troubleshooting, resolved issues within my scope, and coordinated follow-up with the teams responsible for other subsystems.
+- Designed the database and state logic that turn processed LiDAR output into pile and storage-slot state.
+- Defined a read-only interface for the decision-algorithm team to read that state, with documentation and an example client.
+- Connected the system to the robot's status messages (the Worker does not send commands to the robot) and built a read-only validation dashboard for checking data on a map.
+- Deployed the stack on the station's Windows system with a health check and a verified deployment script.
+- Took part in on-site testing with the real robot (26 Sep 2026): traced interface problems with logs and live data, fixed those within my scope, and handed the rest to the owning teams.
+<!-- TODO: Station monitoring / network diagnostics line — add only after confirming exactly what I did. -->
 
 <p align="center">
   <img src="assets/bhirabhat/station-data-flow.png" width="520" alt="System data flow across sensing, station services, storage, decision outputs, and the validation interface"/>
@@ -97,19 +99,11 @@ Contributed the SLAM/localization subsystem to a team project migrating a conven
 
 #### Peplink — GPS–Odometry Alignment
 
-*Short-term task*
+*Jan 2026 — Mar 2026*
 
 Owned the GPS-to-robot-odometry alignment task and tested it with real hardware and data.
 
 - Worked on coordinate conversion, frame alignment, covariance handling, and integration of the alignment logic.
-
-#### B2 Web RViz — Visualization Prototype
-
-*May 2026*
-
-Extended a browser-based visualization prototype, tested mainly with simulation, rosbag, and dummy data.
-
-<p align="center"><img src="assets/bhirabhat/b2-pointcloud-rviz.jpg" height="150" alt="B2 point-cloud visualization"/></p>
 
 ---
 
