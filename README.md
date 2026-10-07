@@ -6,7 +6,7 @@
 
 <img src="assets/bhirabhat/profile.jpg" width="170" alt="Bhirabhat Klomjit"/>
 
-<h1 align="center">Bhirabhat Klomjit (Pae, PaYae)</h1>
+<h1 align="center">Bhirabhat Klomjit (Pae / PaYae)</h1>
 <h3 align="center">Robotics & Automation Engineering Student</h3>
 <p align="center">Robotics Integration · Industrial Systems · Embedded Control</p>
 <p align="center">FIBO, KMUTT · 3rd Year</p>
@@ -46,7 +46,7 @@ A LiDAR-based system for tracking wood piles so a wheel loader can handle them w
 
 - Designed the database and state logic (PostgreSQL) that turn processed LiDAR output into pile and storage-slot state.
 - Defined and documented a read-only interface for the decision-algorithm team to read that state, and wrote an example client.
-- Connected the system to the robot's status messages over MQTT, read-only.
+- Connected the station layer to the robot's status messages over MQTT while keeping the integration read-only.
 - Developed a read-only validation dashboard (FastAPI, React) for checking pile, slot and robot data on a map, and deployed the stack on the station's Windows system with a health check and a verified deployment script.
 - Proposed and deployed a Station Monitor that brings station, LiDAR, network and robot health into one view; used Aruba controller data and field tests for network diagnostics and supported the vendor's final tuning.
 
@@ -126,7 +126,7 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 *Year 1 · Semester 2*
 
 - Designed the machine's control electronics in EasyEDA, including 555-timer timing and PWM circuits, motor-control stages, PCB layouts, and a custom power supply.
-- Selected components, sized the power supply, assembled and wired the electronics, then tuned and tested the whole machine.
+- Selected components, designed and sized the custom power supply, assembled and wired the electronics, then tuned and tested the whole machine.
 
 <p align="center"><img src="assets/bhirabhat/squash-ball-main-board-schematic.png" width="480" alt="Squash ball machine main-board schematic"/></p>
 
@@ -141,7 +141,7 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 *Year 2 · Semester 1*
 
 - Developed the Raspberry Pi Pico control system, including the circuit and PCB, wiring, power, pH sensing, LCD, motor control, and firmware.
-- Tested the prototype under real operating conditions, including pH sensor noise observed while the motor was running.
+- Tested the prototype on an actual CNC machine coolant tank, including pH sensor noise observed while the motor was running.
 
 <p align="center">
   <img src="assets/bhirabhat/oil-skimmer-prototype.jpg" height="380" alt="Drum oil skimmer prototype"/>
