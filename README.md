@@ -4,7 +4,7 @@
 
 <br>
 
-<img src="assets/bhirabhat/avatar-bhirabhat.jpg" width="120" style="border-radius:50%;" alt="Bhirabhat Klomjit"/>
+<img src="assets/bhirabhat/profile.jpg" width="120" style="border-radius:50%;" alt="Bhirabhat Klomjit"/>
 
 <h1 align="center">Bhirabhat Klomjit (Pae , PaYae)</h1>
 <h3 align="center">Robotics & Automation Engineering Student</h3>
@@ -57,8 +57,8 @@ Deployed on the station and used in on-site tests with the real robot; still an 
 </p>
 
 <p align="center">
-  <img src="assets/bhirabhat/operations-screen.png" height="250" alt="Operations screen for validating pile, storage-slot, furnace and robot data on a warehouse map (read-only)"/>
-  <img src="assets/bhirabhat/pose-cross-check.png" height="250" alt="Cross-checking the robot pose drawn on our validation screen against the robot's own 3D viewer"/>
+  <img src="assets/bhirabhat/station-operations-screen.png" height="250" alt="Operations screen for validating pile, storage-slot, furnace and robot data on a warehouse map (read-only)"/>
+  <img src="assets/bhirabhat/station-pose-cross-check.png" height="250" alt="Cross-checking the robot pose drawn on our validation screen against the robot's own 3D viewer"/>
 </p>
 
 <p align="center"><sub>Left: operations screen. Right: cross-checking the robot pose on our validation screen against the robot's own 3D viewer during field testing.</sub></p>
@@ -75,7 +75,7 @@ Deployed on the station and used in on-site tests with the real robot; still an 
 Core navigation, QR, Pure Pursuit, and docking algorithms were primarily developed by other team members; I helped test, debug, and integrate those features.
 
 <p align="center">
-  <img src="assets/bhirabhat/Facobot-Robot.jpg" height="260" alt="FACOBOT AMR"/>
+  <img src="assets/bhirabhat/facobot-robot.jpg" height="260" alt="FACOBOT AMR"/>
   <img src="assets/bhirabhat/facobot-manual-ui.jpg" height="260" alt="FACOBOT manual control interface"/>
 </p>
 
@@ -86,7 +86,7 @@ Core navigation, QR, Pure Pursuit, and docking algorithms were primarily develop
 - Developed and integrated the SLAM/localization subsystem using SLAM Toolbox, including ROS 2 launch/configuration, topic remapping, LiDAR/TF integration, and map generation.
 - Tested and debugged the subsystem in Gazebo/RViz, addressing TF, mapping, localization, and LiDAR integration issues; real-robot tuning remains for the hardware-integration stage.
 
-<p align="center"><img src="assets/bhirabhat/Carver_SLAM.png" width="600" alt="Carver SLAM map and ROS 2 visualization"/></p>
+<p align="center"><img src="assets/bhirabhat/carver-slam-map.png" width="600" alt="Carver SLAM map and ROS 2 visualization"/></p>
 
 ---
 
@@ -117,8 +117,8 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 - Built as an early functional prototype to demonstrate the transfer concept; usability and safety were not yet developed to a practical product level.
 
 <p align="center">
-  <img src="assets/bhirabhat/LiftEase-CAD-Design.png" height="205" alt="LiftEase CAD design views"/>
-  <img src="assets/bhirabhat/Auto-Flip-Bed.jpg" height="205" alt="LiftEase transfer bed prototype"/>
+  <img src="assets/bhirabhat/liftease-cad-design.png" height="205" alt="LiftEase CAD design views"/>
+  <img src="assets/bhirabhat/liftease-prototype.jpg" height="205" alt="LiftEase transfer bed prototype"/>
 </p>
 
 #### Squash Ball Hitting Machine
@@ -128,12 +128,12 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 - Designed the machine's control electronics in EasyEDA, including 555-timer timing and PWM circuits, motor-control stages, PCB layouts, and a custom power supply.
 - Selected components, sized the power supply, assembled and wired the electronics, then tuned and tested the whole machine.
 
-<p align="center"><img src="assets/bhirabhat/FRA163_MainBoard_Schematic.png" width="480" alt="Squash ball machine main-board schematic"/></p>
+<p align="center"><img src="assets/bhirabhat/squash-ball-main-board-schematic.png" width="480" alt="Squash ball machine main-board schematic"/></p>
 
 <p align="center">
-  <img src="assets/bhirabhat/Shooter-Joy.jpg" height="205" alt="Squash ball machine joystick"/>
-  <img src="assets/bhirabhat/Prototype-Shooter-LogicControl.png" height="205" alt="Logic-control prototype and circuit schematic"/>
-  <img src="assets/bhirabhat/Shooter-Y1-2.jpg" height="205" alt="Squash ball machine"/>
+  <img src="assets/bhirabhat/squash-ball-joystick.jpg" height="205" alt="Squash ball machine joystick"/>
+  <img src="assets/bhirabhat/squash-ball-logic-control.png" height="205" alt="Logic-control prototype and circuit schematic"/>
+  <img src="assets/bhirabhat/squash-ball-machine.jpg" height="205" alt="Squash ball machine"/>
 </p>
 
 #### Drum Oil Skimmer for CNC Machine Coolant Tank
@@ -144,8 +144,8 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 - Tested the prototype under real operating conditions, including pH sensor noise observed while the motor was running.
 
 <p align="center">
-  <img src="assets/bhirabhat/Oil-Skimmer.jpg" height="380" alt="Drum oil skimmer prototype"/>
-  <img src="assets/bhirabhat/Oil-Skimmer-Scraper.jpg" height="380" alt="Drum oil skimmer scraper"/>
+  <img src="assets/bhirabhat/oil-skimmer-prototype.jpg" height="380" alt="Drum oil skimmer prototype"/>
+  <img src="assets/bhirabhat/oil-skimmer-scraper.jpg" height="380" alt="Drum oil skimmer scraper"/>
 </p>
 
 #### 1-DOF Pick-and-Place Arm
@@ -157,12 +157,12 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 - Developed the firmware for sensor handling, homing, safety behavior, and command handling, and debugged the complete system on hardware.
 - My contribution focused on electrical/control and integration; the mechanical arm structure was developed by other team members.
 
-<p align="center"><img src="assets/bhirabhat/1Dof_ControlBox_Schematic.png" width="480" alt="1-DOF arm control-box schematic"/></p>
+<p align="center"><img src="assets/bhirabhat/1dof-arm-control-box-schematic.png" width="480" alt="1-DOF arm control-box schematic"/></p>
 
 <p align="center">
-  <img src="assets/bhirabhat/1DOF_full_electrical-box.jpg" height="245" alt="1-DOF arm electrical control box"/>
-  <img src="assets/bhirabhat/1DOF_pic_final_after_test.jpg" height="245" alt="1-DOF arm after hardware testing"/>
-  <img src="assets/bhirabhat/1DOF-Assembly.jpg" height="245" alt="1-DOF pick-and-place assembly"/>
+  <img src="assets/bhirabhat/1dof-arm-electrical-box.jpg" height="245" alt="1-DOF arm electrical control box"/>
+  <img src="assets/bhirabhat/1dof-arm-after-test.jpg" height="245" alt="1-DOF arm after hardware testing"/>
+  <img src="assets/bhirabhat/1dof-arm-assembly.jpg" height="245" alt="1-DOF pick-and-place assembly"/>
 </p>
 
 ---
@@ -178,8 +178,8 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 - Supported debugging of low-level behavior and communication issues while integrating the mobile-base software.
 
 <p align="center">
-  <img src="assets/bhirabhat/ABU_test_real_field.jpg" height="360" alt="ABU Robocon robot field test"/>
-  <img src="assets/bhirabhat/ABU_working_with_team.jpg" height="360" alt="ABU Robocon team testing"/>
+  <img src="assets/bhirabhat/abu-robocon-field-test.jpg" height="360" alt="ABU Robocon robot field test"/>
+  <img src="assets/bhirabhat/abu-robocon-team-testing.jpg" height="360" alt="ABU Robocon team testing"/>
 </p>
 
 #### Junior Botball Challenge — Robotics Competition Trainer
@@ -191,8 +191,8 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 - The team received a Gold Award at the JBC Global Final 2026 in Beijing, China.
 
 <p align="center">
-  <img src="assets/bhirabhat/JBC1.jpg" height="230" alt="Junior Botball Challenge Global Final 2026 award stage"/>
-  <img src="assets/bhirabhat/JBC2.png" height="230" alt="Training a student team with a mock competition field"/>
+  <img src="assets/bhirabhat/jbc-global-final-award.jpg" height="230" alt="Junior Botball Challenge Global Final 2026 award stage"/>
+  <img src="assets/bhirabhat/jbc-training-mock-field.png" height="230" alt="Training a student team with a mock competition field"/>
 </p>
 
 ---
