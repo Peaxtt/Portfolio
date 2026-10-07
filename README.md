@@ -72,7 +72,7 @@ Deployed on the station and used in on-site tests with the real robot; still an 
 - Implemented safety behavior including dead-man control, a connection watchdog, stopping commands on disconnect, state-based command gating, and emergency-stop handling.
 - Tested and debugged the system on the real robot, including state mismatches, disconnections, and safety edge cases.
 
-Core navigation, QR, Pure Pursuit, and docking algorithms were primarily developed by other team members; I helped test, debug, and integrate those features.
+Navigation and docking were primarily developed by other team members; I helped test and integrate them on the robot.
 
 <p align="center">
   <img src="assets/bhirabhat/amr-robot.jpg" height="260" alt="Warehouse AMR"/>
