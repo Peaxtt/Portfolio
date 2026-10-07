@@ -52,18 +52,15 @@ A LiDAR-based system for tracking wood piles so a wheel loader can handle them w
 - Originated and deployed a Station Monitor for station, LiDAR, network and robot health; investigated roaming and network issues with Aruba controller data and field tests, and supported the vendor's final tuning and on-site validation.
 
 <p align="center">
-  <img src="assets/bhirabhat/station-data-flow.png" width="520" alt="System data flow across sensing, station services, storage, decision outputs, and the validation interface"/>
+  <img src="assets/bhirabhat/station-data-flow.png" width="600" alt="System data flow across sensing, station services, storage, decision outputs, and the validation interface"/>
 </p>
 
-<table>
-  <tr>
-    <td width="50%" align="center" valign="top"><img src="assets/bhirabhat/operations-screen.png" width="100%" alt="Operations screen for validating pile, storage-slot, furnace and robot data on a warehouse map (read-only)"/></td>
-    <td width="50%" align="center" valign="top">
-      <img src="assets/bhirabhat/pose-cross-check.png" width="100%" alt="Cross-checking the robot pose drawn on our validation screen against the robot's own 3D viewer"/>
-      <br><sub>Field test on 26 September 2026, before correction: the robot marker on our validation screen appeared too far ahead compared with the robot’s own viewer. The position was corrected the same day.</sub>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="assets/bhirabhat/operations-screen.png" height="250" alt="Operations screen for validating pile, storage-slot, furnace and robot data on a warehouse map (read-only)"/>
+  <img src="assets/bhirabhat/pose-cross-check.png" height="250" alt="Cross-checking the robot pose drawn on our validation screen against the robot's own 3D viewer"/>
+</p>
+
+<p align="center"><sub>Right: field test on 26 September 2026, before correction. The robot marker on our validation screen appeared too far ahead compared with the robot's own viewer; the position was corrected the same day.</sub></p>
 
 #### FACOBOT AMR — Operator Interface & ROS 2 Integration
 
@@ -76,8 +73,8 @@ Worked on the operator interface and robot integration for a warehouse AMR.
 - Helped debug and integrate navigation-related features; core navigation, QR, Pure Pursuit, and docking algorithms were primarily developed by other team members.
 
 <p align="center">
-  <img src="assets/bhirabhat/Facobot-Robot.jpg" height="150" alt="FACOBOT AMR"/>
-  <img src="assets/bhirabhat/facobot-manual-ui.jpg" height="150" alt="FACOBOT manual control interface"/>
+  <img src="assets/bhirabhat/Facobot-Robot.jpg" height="260" alt="FACOBOT AMR"/>
+  <img src="assets/bhirabhat/facobot-manual-ui.jpg" height="260" alt="FACOBOT manual control interface"/>
 </p>
 
 #### Carver — ROS 2 Migration & SLAM / Localization
@@ -89,7 +86,7 @@ Contributed the SLAM/localization subsystem to a team project migrating a conven
 - Generated maps, tuned localization, and integrated LiDAR, TF, odometry, and ROS 2 topics.
 - Integrated the subsystem with the team's simulation; the project was completed at simulation level.
 
-<p align="center"><img src="assets/bhirabhat/Carver_SLAM.png" width="520" alt="Carver SLAM map and ROS 2 visualization"/></p>
+<p align="center"><img src="assets/bhirabhat/Carver_SLAM.png" width="600" alt="Carver SLAM map and ROS 2 visualization"/></p>
 
 ---
 
@@ -117,9 +114,9 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 - Soldered, wired, tuned, and tested the physical machine.
 
 <p align="center">
-  <img src="assets/bhirabhat/Shooter-Joy.jpg" height="150" alt="Squash ball machine joystick"/>
-  <img src="assets/bhirabhat/Prototype-Shooter-LogicControl.png" height="150" alt="Logic-control prototype and circuit schematic"/>
-  <img src="assets/bhirabhat/Shooter-Y1-2.jpg" height="150" alt="Squash ball machine"/>
+  <img src="assets/bhirabhat/Shooter-Joy.jpg" height="205" alt="Squash ball machine joystick"/>
+  <img src="assets/bhirabhat/Prototype-Shooter-LogicControl.png" height="205" alt="Logic-control prototype and circuit schematic"/>
+  <img src="assets/bhirabhat/Shooter-Y1-2.jpg" height="205" alt="Squash ball machine"/>
 </p>
 
 #### LiftEase — Patient Transfer Bed
@@ -127,8 +124,8 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 Team project. Contributed to the mechanical structure, conveyor and motor selection, electrical controls, firmware, and directional control interface; participated in prototype assembly and testing.
 
 <p align="center">
-  <img src="assets/bhirabhat/LiftEase-CAD-Design.png" height="150" alt="LiftEase CAD design views"/>
-  <img src="assets/bhirabhat/Auto-Flip-Bed.jpg" height="150" alt="LiftEase transfer bed prototype"/>
+  <img src="assets/bhirabhat/LiftEase-CAD-Design.png" height="205" alt="LiftEase CAD design views"/>
+  <img src="assets/bhirabhat/Auto-Flip-Bed.jpg" height="205" alt="LiftEase transfer bed prototype"/>
 </p>
 
 #### 1-DOF Pick-and-Place Arm
@@ -136,9 +133,9 @@ Team project. Contributed to the mechanical structure, conveyor and motor select
 Designed the electrical/control system, selected components, and wired the control box. Worked on STM32 firmware, safety circuits, and sensors; tested the system on hardware. My contribution was electrical and control, not the mechanical arm structure.
 
 <p align="center">
-  <img src="assets/bhirabhat/1DOF_full_electrical-box.jpg" height="150" alt="1-DOF arm electrical control box"/>
-  <img src="assets/bhirabhat/1DOF_pic_final_after_test.jpg" height="150" alt="1-DOF arm after hardware testing"/>
-  <img src="assets/bhirabhat/1DOF-Assembly.jpg" height="150" alt="1-DOF pick-and-place assembly"/>
+  <img src="assets/bhirabhat/1DOF_full_electrical-box.jpg" height="245" alt="1-DOF arm electrical control box"/>
+  <img src="assets/bhirabhat/1DOF_pic_final_after_test.jpg" height="245" alt="1-DOF arm after hardware testing"/>
+  <img src="assets/bhirabhat/1DOF-Assembly.jpg" height="245" alt="1-DOF pick-and-place assembly"/>
 </p>
 
 #### Grease Separator / Oil Skimmer
@@ -146,8 +143,8 @@ Designed the electrical/control system, selected components, and wired the contr
 Worked on control electronics and firmware, pH sensor integration, and display/indicator integration; tested the physical prototype.
 
 <p align="center">
-  <img src="assets/bhirabhat/Oil-Skimmer.jpg" height="150" alt="Oil skimmer prototype"/>
-  <img src="assets/bhirabhat/Oil-Skimmer-Scraper.jpg" height="150" alt="Oil skimmer scraper"/>
+  <img src="assets/bhirabhat/Oil-Skimmer.jpg" height="380" alt="Oil skimmer prototype"/>
+  <img src="assets/bhirabhat/Oil-Skimmer-Scraper.jpg" height="380" alt="Oil skimmer scraper"/>
 </p>
 
 #### ABU Robocon — Meihua
@@ -155,8 +152,8 @@ Worked on control electronics and firmware, pH sensor integration, and display/i
 Contributed to mobile-base software using ROS 2 and micro-ROS, integrated team members' software, and supported troubleshooting, testing, and tuning on the real robot.
 
 <p align="center">
-  <img src="assets/bhirabhat/ABU_test_real_field.jpg" height="150" alt="ABU Robocon robot field test"/>
-  <img src="assets/bhirabhat/ABU_working_with_team.jpg" height="150" alt="ABU Robocon team testing"/>
+  <img src="assets/bhirabhat/ABU_test_real_field.jpg" height="360" alt="ABU Robocon robot field test"/>
+  <img src="assets/bhirabhat/ABU_working_with_team.jpg" height="360" alt="ABU Robocon team testing"/>
 </p>
 
 ---
