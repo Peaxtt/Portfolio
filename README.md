@@ -211,7 +211,7 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 | **Embedded & Control** | ![STM32](https://img.shields.io/badge/STM32-03234B?style=flat&logo=stmicroelectronics&logoColor=white) ![Raspberry Pi Pico](https://img.shields.io/badge/Raspberry%20Pi%20Pico-C51A4A?style=flat&logo=raspberrypi&logoColor=white) `C / C++` `Microcontroller Firmware` `Timer ICs` `PWM Motor Control` |
 | **Electrical & Hardware** | `Circuit Design` `PCB Design & Assembly` `Power Supply Design` `Control-Box Wiring`<br>`Sensors & Encoders` `Relays & Motor Drivers` `Hardware Debugging` |
 | **CAD & EDA** | `SolidWorks` `EasyEDA` |
-| **Development & Deployment** | ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black) `Windows` `PowerShell` |
+| **Development & Deployment** | ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black) |
 
 ---
 
