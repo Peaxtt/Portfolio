@@ -46,10 +46,10 @@ A LiDAR-based system for tracking wood piles so a wheel loader can handle them w
 
 - Designed the database and state logic that turn processed LiDAR output into pile and storage-slot state.
 - Defined a read-only interface for the decision-algorithm team to read that state, with documentation and an example client.
-- Connected the system to the robot's status messages (the Worker does not send commands to the robot) and built a read-only validation dashboard for checking data on a map.
-- Deployed the stack on the station's Windows system with a health check and a verified deployment script.
+- Integrated the robot's status feed over MQTT with a deliberate safety boundary: the station layer reads robot status and publishes status only, and never sends commands to the robot.
+- Developed a read-only validation dashboard for checking pile, slot and robot data on a map, and deployed the stack on the station's Windows system with a health check and a verified deployment script.
 - Took part in on-site testing with the real robot (26 Sep 2026): traced interface problems with logs and live data, fixed those within my scope, and handed the rest to the owning teams.
-<!-- TODO: Station monitoring / network diagnostics line — add only after confirming exactly what I did. -->
+- Originated and deployed a Station Monitor for station, LiDAR, network and robot health; investigated roaming and network issues with Aruba controller data and field tests, and supported the vendor's final tuning and on-site validation.
 
 <p align="center">
   <img src="assets/bhirabhat/station-data-flow.png" width="520" alt="System data flow across sensing, station services, storage, decision outputs, and the validation interface"/>
