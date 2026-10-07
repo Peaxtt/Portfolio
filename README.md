@@ -63,7 +63,7 @@ Deployed on the station and used in on-site tests with the real robot; still an 
 
 <p align="center"><sub>Left: operations screen. Right: cross-checking the robot pose on our validation screen against the robot's own 3D viewer during field testing.</sub></p>
 
-#### FACOBOT AMR — Operator Interface & ROS 2 Integration
+#### Warehouse AMR — Robot Interface Web App & ROS 2 Integration
 
 *Dec 2025 — May 2026*
 
@@ -75,8 +75,8 @@ Deployed on the station and used in on-site tests with the real robot; still an 
 Core navigation, QR, Pure Pursuit, and docking algorithms were primarily developed by other team members; I helped test, debug, and integrate those features.
 
 <p align="center">
-  <img src="assets/bhirabhat/facobot-robot.jpg" height="260" alt="FACOBOT AMR"/>
-  <img src="assets/bhirabhat/facobot-manual-ui.jpg" height="260" alt="FACOBOT manual control interface"/>
+  <img src="assets/bhirabhat/amr-robot.jpg" height="260" alt="Warehouse AMR"/>
+  <img src="assets/bhirabhat/amr-manual-ui.jpg" height="260" alt="Robot interface web app: manual control, mission and module screens"/>
 </p>
 
 #### Carver — ROS 2 Migration & SLAM / Localization
