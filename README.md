@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="#about">About</a> &nbsp; | &nbsp; <a href="#experience">Experience</a> &nbsp; | &nbsp; <a href="#additional-work">Additional Work</a> &nbsp; | &nbsp; <a href="#projects">Projects</a> &nbsp; | &nbsp; <a href="#tools">Tools</a> &nbsp; | &nbsp; <a href="#contact">Contact</a>
+<a href="#about">About</a> &nbsp; | &nbsp; <a href="#experience">Experience</a> &nbsp; | &nbsp; <a href="#additional-work">Additional Work</a> &nbsp; | &nbsp; <a href="#projects">Projects</a> &nbsp; | &nbsp; <a href="#competitions">Competitions</a> &nbsp; | &nbsp; <a href="#tools">Tools</a> &nbsp; | &nbsp; <a href="#contact">Contact</a>
 
 <br>
 
@@ -44,12 +44,13 @@ Robotics & Automation Engineering student at **FIBO, KMUTT** with hands-on exper
 
 A LiDAR-based system for tracking wood piles so a wheel loader can handle them with less manual work. Processed LiDAR data and the decision algorithm come from other teams; I worked on the station-side layer that connects them to the robot and the operators.
 
-- Designed the database and state logic that turn processed LiDAR output into pile and storage-slot state.
+- Designed the database and state logic (PostgreSQL) that turn processed LiDAR output into pile and storage-slot state.
 - Defined and documented a read-only interface for the decision-algorithm team to read that state, and wrote an example client.
-- Integrated the robot's status feed over MQTT with a deliberate safety boundary: the station layer reads robot status and publishes status only, and never sends commands to the robot.
-- Developed a read-only validation dashboard for checking pile, slot and robot data on a map, and deployed the stack on the station's Windows system with a health check and a verified deployment script.
-- Took part in on-site testing with the real robot (26 Sep 2026): traced interface problems with logs and live data, fixed those within my scope, and handed the rest to the owning teams.
-- Originated and deployed a Station Monitor for station, LiDAR, network and robot health; investigated roaming and network issues with Aruba controller data and field tests, and supported the vendor's final tuning and on-site validation.
+- Integrated the robot's status feed over MQTT as a read-only safety boundary.
+- Developed a read-only validation dashboard (FastAPI, React) for checking pile, slot and robot data on a map, and deployed the stack on the station's Windows system with a health check and a verified deployment script.
+- Originated and deployed a Station Monitor for station, LiDAR, network and robot health, using Aruba controller data and field tests for network diagnostics, and supported the vendor's final tuning and on-site validation.
+
+Deployed on the station and used in on-site tests with the real robot; still an R&D prototype.
 
 <p align="center">
   <img src="assets/bhirabhat/station-data-flow.png" width="600" alt="System data flow across sensing, station services, storage, decision outputs, and the validation interface"/>
@@ -60,7 +61,7 @@ A LiDAR-based system for tracking wood piles so a wheel loader can handle them w
   <img src="assets/bhirabhat/pose-cross-check.png" height="250" alt="Cross-checking the robot pose drawn on our validation screen against the robot's own 3D viewer"/>
 </p>
 
-<p align="center"><sub>Right: field test on 26 September 2026, before correction. The robot marker on our validation screen appeared too far ahead compared with the robot's own viewer; the position was corrected the same day.</sub></p>
+<p align="center"><sub>Left: operations screen. Right: cross-checking the robot pose on our validation screen against the robot's own 3D viewer during field testing.</sub></p>
 
 #### FACOBOT AMR — Operator Interface & ROS 2 Integration
 
@@ -146,6 +147,12 @@ Worked on control electronics and firmware, pH sensor integration, and display/i
   <img src="assets/bhirabhat/Oil-Skimmer.jpg" height="380" alt="Oil skimmer prototype"/>
   <img src="assets/bhirabhat/Oil-Skimmer-Scraper.jpg" height="380" alt="Oil skimmer scraper"/>
 </p>
+
+---
+
+<a id="competitions"></a>
+
+### Competitions
 
 #### ABU Robocon — Meihua
 
