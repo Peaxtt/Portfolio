@@ -123,7 +123,10 @@ Extended a browser-based visualization prototype, tested mainly with simulation,
 
 Team project. Contributed to the mechanical structure, conveyor and motor selection, electrical controls, firmware, and directional control interface; participated in prototype assembly and testing.
 
-<p align="center"><img src="assets/bhirabhat/Auto-Flip-Bed.jpg" height="220" alt="LiftEase transfer bed prototype"/></p>
+<p align="center">
+  <img src="assets/bhirabhat/LiftEase-CAD-Design.png" height="220" alt="LiftEase CAD design views"/>
+  <img src="assets/bhirabhat/Auto-Flip-Bed.jpg" height="220" alt="LiftEase transfer bed prototype"/>
+</p>
 
 #### 1-DOF Pick-and-Place Arm
 
