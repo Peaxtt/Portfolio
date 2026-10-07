@@ -4,7 +4,11 @@
 
 <br>
 
-<img src="assets/bhirabhat/profile.jpg" width="120" style="border-radius:50%;" alt="Bhirabhat Klomjit"/>
+<p align="center">
+  <img src="assets/bhirabhat/profile-work.jpg" width="120" height="120" style="border-radius:50%;" alt="Bhirabhat Klomjit on site"/>
+  &nbsp;&nbsp;
+  <img src="assets/bhirabhat/profile-casual.jpg" width="120" height="120" style="border-radius:50%;" alt="Bhirabhat Klomjit"/>
+</p>
 
 <h1 align="center">Bhirabhat Klomjit (Pae , PaYae)</h1>
 <h3 align="center">Robotics & Automation Engineering Student</h3>
