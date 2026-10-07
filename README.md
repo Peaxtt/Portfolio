@@ -128,7 +128,7 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 - Designed the machine's control electronics in EasyEDA, including 555-timer timing/PWM circuits, relay/MOSFET motor-control stages, PCB layouts, and a custom power-supply section.
 - Selected components, calculated the power-supply design, assembled and wired the electronics, then tuned and tested the complete system on the physical machine.
 
-<p align="center"><img src="assets/bhirabhat/FRA163_MainBoard_Schematic.png" width="680" alt="Squash ball machine main-board schematic"/></p>
+<p align="center"><img src="assets/bhirabhat/FRA163_MainBoard_Schematic.png" width="480" alt="Squash ball machine main-board schematic"/></p>
 
 <p align="center">
   <img src="assets/bhirabhat/Shooter-Joy.jpg" height="205" alt="Squash ball machine joystick"/>
@@ -157,7 +157,7 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 - Developed firmware for sensor handling, homing, safety/emergency behavior, and system state/command handling; debugged the complete system on hardware.
 - My contribution focused on electrical/control and integration; the mechanical arm structure was developed by other team members.
 
-<p align="center"><img src="assets/bhirabhat/1Dof_ControlBox_Schematic.png" width="680" alt="1-DOF arm control-box schematic"/></p>
+<p align="center"><img src="assets/bhirabhat/1Dof_ControlBox_Schematic.png" width="480" alt="1-DOF arm control-box schematic"/></p>
 
 <p align="center">
   <img src="assets/bhirabhat/1DOF_full_electrical-box.jpg" height="245" alt="1-DOF arm electrical control box"/>
@@ -191,8 +191,8 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 - The team received a Gold Award at the JBC Global Final 2026 in Beijing, China.
 
 <p align="center">
-  <img src="assets/bhirabhat/JBC1.jpg" height="300" alt="Junior Botball Challenge Global Final 2026 award stage"/>
-  <img src="assets/bhirabhat/JBC2.png" height="300" alt="Training a student team with a mock competition field"/>
+  <img src="assets/bhirabhat/JBC1.jpg" height="230" alt="Junior Botball Challenge Global Final 2026 award stage"/>
+  <img src="assets/bhirabhat/JBC2.png" height="230" alt="Training a student team with a mock competition field"/>
 </p>
 
 ---
