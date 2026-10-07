@@ -46,9 +46,9 @@ A LiDAR-based system for tracking wood piles so a wheel loader can handle them w
 
 - Designed the database and state logic (PostgreSQL) that turn processed LiDAR output into pile and storage-slot state.
 - Defined and documented a read-only interface for the decision-algorithm team to read that state, and wrote an example client.
-- Integrated the robot's status feed over MQTT as a read-only safety boundary.
+- Connected the system to the robot's status messages over MQTT, read-only.
 - Developed a read-only validation dashboard (FastAPI, React) for checking pile, slot and robot data on a map, and deployed the stack on the station's Windows system with a health check and a verified deployment script.
-- Originated and deployed a Station Monitor for station, LiDAR, network and robot health, using Aruba controller data and field tests for network diagnostics, and supported the vendor's final tuning and on-site validation.
+- Proposed and deployed a Station Monitor that brings station, LiDAR, network and robot health into one view; used Aruba controller data and field tests for network diagnostics and supported the vendor's final tuning.
 
 Deployed on the station and used in on-site tests with the real robot; still an R&D prototype.
 
@@ -68,9 +68,9 @@ Deployed on the station and used in on-site tests with the real robot; still an 
 *Dec 2025 — May 2026*
 
 - Developed the robot-interface web application for a warehouse AMR, covering manual control, mission execution, robot status, error and status handling, and operator workflows.
-- Built the ROS 2 action bridge that connects the web application to ROS 2, because the required action workflow could not be handled properly through the normal direct WebSocket approach, and integrated ROS 2 actions, topics, services, action feedback/results, and robot state.
+- Built a ROS 2 action bridge between the web application and ROS 2, since the action workflow could not be handled through direct WebSocket alone, and integrated ROS 2 actions, topics, services, feedback, and robot state.
 - Implemented safety behavior including dead-man control, a connection watchdog, stopping commands on disconnect, state-based command gating, and emergency-stop handling.
-- Tested and debugged on the real robot, including UI/state mismatch, action-feedback issues, repeated commands, disconnections, and safety edge cases.
+- Tested and debugged the system on the real robot, including state mismatches, disconnections, and safety edge cases.
 
 Core navigation, QR, Pure Pursuit, and docking algorithms were primarily developed by other team members; I helped test, debug, and integrate those features.
 
@@ -125,8 +125,8 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 
 *Year 1 · Semester 2*
 
-- Designed the machine's control electronics in EasyEDA, including 555-timer timing/PWM circuits, relay/MOSFET motor-control stages, PCB layouts, and a custom power-supply section.
-- Selected components, calculated the power-supply design, assembled and wired the electronics, then tuned and tested the complete system on the physical machine.
+- Designed the machine's control electronics in EasyEDA, including 555-timer timing and PWM circuits, motor-control stages, PCB layouts, and a custom power supply.
+- Selected components, sized the power supply, assembled and wired the electronics, then tuned and tested the whole machine.
 
 <p align="center"><img src="assets/bhirabhat/FRA163_MainBoard_Schematic.png" width="480" alt="Squash ball machine main-board schematic"/></p>
 
@@ -140,8 +140,8 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 
 *Year 2 · Semester 1*
 
-- Developed the Raspberry Pi Pico-based control system, including circuit/PCB work, wiring, power, pH sensing, LCD interface, motor control, and firmware.
-- Integrated and tested the complete prototype under real operating conditions, including investigation of pH measurement noise observed while the motor was running.
+- Developed the Raspberry Pi Pico control system, including the circuit and PCB, wiring, power, pH sensing, LCD, motor control, and firmware.
+- Tested the prototype under real operating conditions, including pH sensor noise observed while the motor was running.
 
 <p align="center">
   <img src="assets/bhirabhat/Oil-Skimmer.jpg" height="380" alt="Drum oil skimmer prototype"/>
@@ -153,8 +153,8 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 *Year 2 · Semester 2*
 
 - Designed the complete electrical/control system around an STM32G474RE, from component selection and EasyEDA schematics to control-box layout, wiring, assembly, and hardware testing.
-- Integrated 24 V field sensors, encoder feedback, opto-isolated inputs, relay/pneumatic outputs, motor drive, emergency-stop circuitry, and panel controls.
-- Developed firmware for sensor handling, homing, safety/emergency behavior, and system state/command handling; debugged the complete system on hardware.
+- Integrated 24 V sensors, encoder feedback, opto-isolated inputs, relay and pneumatic outputs, the motor drive, and emergency-stop circuitry.
+- Developed the firmware for sensor handling, homing, safety behavior, and command handling, and debugged the complete system on hardware.
 - My contribution focused on electrical/control and integration; the mechanical arm structure was developed by other team members.
 
 <p align="center"><img src="assets/bhirabhat/1Dof_ControlBox_Schematic.png" width="480" alt="1-DOF arm control-box schematic"/></p>
@@ -187,7 +187,7 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 *Jul 2026 — Aug 2026*
 
 - Trained and prepared a student robotics team in match strategy, route planning, teamwork, communication, and problem-solving under competition conditions.
-- Designed and used 40 competition-style training problems, ran mock competitions, and supported robot debugging and strategy adjustments.
+- Designed competition-style training problems, ran mock competitions, and supported robot debugging and strategy adjustments.
 - The team received a Gold Award at the JBC Global Final 2026 in Beijing, China.
 
 <p align="center">
