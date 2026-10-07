@@ -42,17 +42,22 @@ Robotics & Automation Engineering student at **FIBO, KMUTT** with hands-on exper
 
 *Apr 2026 — Present · Flagship project*
 
-Integrated station-side software for an industrial monitoring project, focusing on data handling, operator-facing tools, and coordination across robotics and software subsystems.
+Integrated station-side software for an industrial monitoring project, focusing on data handling, operator-facing data validation, and coordination across robotics and software subsystems.
 
-- Defined station-side data behavior and integrated processed outputs from sensing and robotics subsystems.
-- Integrated and deployed the operator dashboard and supporting software on the project station.
+- Defined database behavior for pile and slot data; integrated processed LiDAR output from another team into the station layer.
+- Integrated and deployed the read-only data-validation dashboard on the station’s Windows system.
+- Coordinated interfaces with the robot and decision-algorithm teams. The Worker exchanges robot status through MQTT and does not send commands to the robot.
 - Supported system-level testing and troubleshooting, resolved issues within my scope, and coordinated follow-up with the teams responsible for other subsystems.
 
 <p align="center">
-  <img src="assets/bhirabhat/StationSystemContext.png" width="820" alt="System context: station data layer connects sensing, another system, the robot, and the operator dashboard"/>
+  <img src="assets/bhirabhat/station-data-flow.png" width="820" alt="System data flow across sensing, station services, storage, decision outputs, and the validation interface"/>
+  <br>
+  <img src="assets/bhirabhat/operations-screen.png" width="820" alt="Operations screen for validating pile, storage-slot, furnace and robot data on a warehouse map (read-only)"/>
+  <br>
+  <img src="assets/bhirabhat/pose-cross-check.png" width="820" alt="Cross-checking the robot pose drawn on our validation screen against the robot's own 3D viewer"/>
 </p>
 
-<!-- TODO: Add a sanitized project image approved for public sharing. -->
+<p align="center"><sub>Field test on 26 September 2026, before correction: the robot marker on our validation screen appeared too far ahead compared with the robot’s own viewer. The position was corrected the same day.</sub></p>
 
 #### FACOBOT AMR — Operator Interface & ROS 2 Integration
 
@@ -135,6 +140,7 @@ Designed the electrical/control system, selected components, and wired the contr
 <p align="center">
   <img src="assets/bhirabhat/1DOF_full_electrical-box.jpg" height="250" alt="1-DOF arm electrical control box"/>
   <img src="assets/bhirabhat/1DOF_pic_final_after_test.jpg" height="250" alt="1-DOF arm after hardware testing"/>
+  <img src="assets/bhirabhat/1DOF-Assembly.jpg" height="250" alt="1-DOF pick-and-place assembly"/>
 </p>
 
 #### Grease Separator / Oil Skimmer
