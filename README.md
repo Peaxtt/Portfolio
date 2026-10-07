@@ -51,13 +51,17 @@ Integrated station-side software for an industrial monitoring project, focusing 
 
 <p align="center">
   <img src="assets/bhirabhat/station-data-flow.png" width="520" alt="System data flow across sensing, station services, storage, decision outputs, and the validation interface"/>
-  <br>
-  <img src="assets/bhirabhat/operations-screen.png" width="520" alt="Operations screen for validating pile, storage-slot, furnace and robot data on a warehouse map (read-only)"/>
-  <br>
-  <img src="assets/bhirabhat/pose-cross-check.png" width="520" alt="Cross-checking the robot pose drawn on our validation screen against the robot's own 3D viewer"/>
 </p>
 
-<p align="center"><sub>Field test on 26 September 2026, before correction: the robot marker on our validation screen appeared too far ahead compared with the robot’s own viewer. The position was corrected the same day.</sub></p>
+<table>
+  <tr>
+    <td width="50%" align="center" valign="top"><img src="assets/bhirabhat/operations-screen.png" width="100%" alt="Operations screen for validating pile, storage-slot, furnace and robot data on a warehouse map (read-only)"/></td>
+    <td width="50%" align="center" valign="top">
+      <img src="assets/bhirabhat/pose-cross-check.png" width="100%" alt="Cross-checking the robot pose drawn on our validation screen against the robot's own 3D viewer"/>
+      <br><sub>Field test on 26 September 2026, before correction: the robot marker on our validation screen appeared too far ahead compared with the robot’s own viewer. The position was corrected the same day.</sub>
+    </td>
+  </tr>
+</table>
 
 #### FACOBOT AMR — Operator Interface & ROS 2 Integration
 
