@@ -15,6 +15,7 @@
   <a href="mailto:bhirabhat.klom@mail.kmutt.ac.th"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://github.com/Peaxtt"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
   <img src="https://img.shields.io/badge/LINE-bhirabhat-00C300?style=for-the-badge&logo=line&logoColor=white" alt="LINE ID: bhirabhat"/>
+  <a href="https://fastwork.co/byob/GID231DJiP"><img src="https://img.shields.io/badge/Fastwork-Hire%20Me-1E6FFF?style=for-the-badge" alt="Fastwork"/></a>
 </p>
 
 </div>
@@ -221,6 +222,5 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 
 - **Email:** [bhirabhat.klom@mail.kmutt.ac.th](mailto:bhirabhat.klom@mail.kmutt.ac.th)
 - **LINE ID:** bhirabhat
-- **Fastwork:** [fastwork.co/byob/GID231DJiP](https://fastwork.co/byob/GID231DJiP)
 
 <!-- TODO: Add Resume PDF and LinkedIn links when available. -->
