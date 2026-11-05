@@ -79,7 +79,7 @@ Navigation and docking were primarily developed by other team members; I helped 
 **Publication (co-author)**<br>
 [**AMRF: A Software Architecture for Autonomous Mobile Robot Fleet Management in Warehouse Environments**](https://doi.org/10.1145/3816713.3819506)<br>
 14th International Conference on Advances in Information Technology (IAIT 2026), Bangkok · ACM Digital Library · June 2026<br>
-Co-authors: Norawit Nangsue, Tammarat Shubanchong, Teerapat Kasemvesaruchawut, Thadchai Suksaran, Wuttichai Visarnkuna
+Authors: Norawit Nangsue, Tammarat Shubanchong, Teerapat Kasemvesaruchawut, **Bhirabhat Klomjit**, Thadchai Suksaran, Wuttichai Visarnkuna
 
 <p align="center">
   <img src="assets/bhirabhat/amr-robot.jpg" height="260" alt="Warehouse AMR"/>
