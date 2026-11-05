@@ -8,8 +8,8 @@
 
 <h1 align="center">Bhirabhat Klomjit (Pae / PaYae)</h1>
 <h3 align="center">Robotics & Automation Engineering Student</h3>
-<p align="center">Robotics Integration · Industrial Systems · Embedded Control</p>
-<p align="center">FIBO, KMUTT · 3rd Year</p>
+<p align="center">Robotics Integration, Industrial Systems, Embedded Control</p>
+<p align="center">FIBO, KMUTT, 3rd Year</p>
 
 <p align="center">
   <a href="mailto:bhirabhat.klom@mail.kmutt.ac.th"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
@@ -30,9 +30,9 @@ Robotics & Automation Engineering student at **FIBO, KMUTT** with hands-on exper
 
 | | |
 |---|---|
-| **Degree** | B.Eng. Robotics & Automation · FIBO, KMUTT |
+| **Degree** | B.Eng. Robotics & Automation, FIBO, KMUTT |
 | **Year** | 3rd Year |
-| **Focus** | Robotics System Integration · Industrial Automation · Embedded Control |
+| **Focus** | Robotics System Integration, Industrial Automation, Embedded Control |
 
 ---
 
@@ -42,7 +42,7 @@ Robotics & Automation Engineering student at **FIBO, KMUTT** with hands-on exper
 
 #### FIBO — Pile Monitoring & Industrial Station Integration
 
-*Apr 2026 — Present · R&D prototype for an industrial wood-handling site*
+*Apr 2026 — Present. R&D prototype for an industrial wood-handling site*
 
 A LiDAR-based system for tracking wood piles so a wheel loader can handle them with less manual work. Processed LiDAR data and the decision algorithm come from other teams; I worked on the station-side layer that connects them to the robot and the operators.
 
@@ -78,7 +78,7 @@ Navigation and docking were primarily developed by other team members; I helped 
 
 **Publication (co-author)**<br>
 [**AMRF: A Software Architecture for Autonomous Mobile Robot Fleet Management in Warehouse Environments**](https://doi.org/10.1145/3816713.3819506)<br>
-14th International Conference on Advances in Information Technology (IAIT 2026), Bangkok · ACM Digital Library · June 2026<br>
+IAIT 2026 (14th International Conference on Advances in Information Technology), Bangkok, June 2026<br>
 Authors: Norawit Nangsue, Tammarat Shubanchong, Teerapat Kasemvesaruchawut, **Bhirabhat Klomjit**, Thadchai Suksaran, Wuttichai Visarnkuna
 
 <p align="center">
@@ -121,7 +121,7 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 
 #### LiftEase — Patient Transfer Bed
 
-*Year 1 · Semester 1*
+*Year 1, Semester 1*
 
 - Designed the prototype concept and mechanical structure in SolidWorks, including the conveyor-based transfer mechanism and motor integration.
 - Selected and integrated the motors and electrical controls, developed the basic firmware, and worked with teammates on mechanical assembly and prototype testing.
@@ -134,7 +134,7 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 
 #### Squash Ball Hitting Machine
 
-*Year 1 · Semester 2*
+*Year 1, Semester 2*
 
 - Designed the machine's control electronics in EasyEDA, including 555-timer timing and PWM circuits, motor-control stages, PCB layouts, and a custom power supply.
 - Selected components, designed and sized the custom power supply, assembled and wired the electronics, then tuned and tested the whole machine.
@@ -149,7 +149,7 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 
 #### Drum Oil Skimmer for CNC Machine Coolant Tank
 
-*Year 2 · Semester 1*
+*Year 2, Semester 1*
 
 - Developed the Raspberry Pi Pico control system, including the circuit and PCB, wiring, power, pH sensing, LCD, motor control, and firmware.
 - Tested the prototype on the coolant tank of an actual CNC machine and observed pH sensor noise while the motor was running.
@@ -161,7 +161,7 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 
 #### 1-DOF Pick-and-Place Arm
 
-*Year 2 · Semester 2*
+*Year 2, Semester 2*
 
 - Designed the complete electrical/control system around an STM32G474RE, from component selection and EasyEDA schematics to control-box layout, wiring, assembly, and hardware testing.
 - Integrated 24 V sensors, encoder feedback, opto-isolated inputs, relay and pneumatic outputs, the motor drive, and emergency-stop circuitry.
