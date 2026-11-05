@@ -76,7 +76,7 @@ Deployed on the station and used in on-site tests with the real robot; still an 
 
 Navigation and docking were primarily developed by other team members; I helped test and integrate them on the robot.
 
-Co-author of a related publication: N. Nangsue, T. Shubanchong, T. Kasemvesaruchawut, **B. Klomjit**, T. Suksaran, and W. Visarnkuna, [“AMRF: A Software Architecture for Autonomous Mobile Robot Fleet Management in Warehouse Environments”](https://doi.org/10.1145/3816713.3819506), IAIT ’26 (14th International Conference on Advances in Information Technology), Bangkok, June 2026.
+Co-author of a related publication: Norawit Nangsue, Tammarat Shubanchong, Teerapat Kasemvesaruchawut, **Bhirabhat Klomjit**, Thadchai Suksaran, and Wuttichai Visarnkuna, [“AMRF: A Software Architecture for Autonomous Mobile Robot Fleet Management in Warehouse Environments”](https://doi.org/10.1145/3816713.3819506), IAIT ’26 (14th International Conference on Advances in Information Technology), Bangkok, June 2026.
 
 <p align="center">
   <img src="assets/bhirabhat/amr-robot.jpg" height="260" alt="Warehouse AMR"/>
