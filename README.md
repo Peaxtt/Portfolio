@@ -12,8 +12,9 @@
 <p align="center">FIBO, KMUTT, 3rd Year</p>
 
 <p align="center">
-  <a href="mailto:bhirabhat.klom@mail.kmutt.ac.th"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="mailto:bhibhat26@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://github.com/Peaxtt"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="https://www.linkedin.com/in/bhirabhat-klomjit-6a600b433/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <img src="https://img.shields.io/badge/LINE-bhirabhat-00C300?style=for-the-badge&logo=line&logoColor=white" alt="LINE ID: bhirabhat"/>
   <img src="https://img.shields.io/badge/Discord-paye__mumu-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord: paye_mumu"/>
   <a href="https://fastwork.co/byob/GID231DJiP"><img src="https://img.shields.io/badge/Fastwork-Freelance-1E6FFF?style=for-the-badge" alt="Fastwork"/></a>
@@ -45,8 +46,9 @@ Robotics & Automation Engineering student at **FIBO, KMUTT** with hands-on exper
 
 *Apr 2026 — Present. R&D prototype for an industrial wood-handling site*
 
-A LiDAR-based system for tracking wood piles so a wheel loader can handle them with less manual work. Processed LiDAR data and the decision algorithm come from other teams; I worked on the station-side layer that connects them to the robot and the operators.
+A LiDAR-based system for tracking wood piles so a wheel loader can handle them with less manual work. Processed LiDAR data and the decision algorithm come from other teams; I worked on the station-side layer that turns the height grid into pile and slot state and connects it to the robot and the operators.
 
+- Developed the pile-processing layer on the processed LiDAR height grid: transformed it into the robot's map frame, masked blind zones, separated piles with connected components, merged nearby peaks, tracked piles with persistent IDs, and estimated pile and storage-slot volume.
 - Designed the database and state logic (PostgreSQL) that turn processed LiDAR output into pile and storage-slot state.
 - Defined and documented a read-only interface for the decision-algorithm team to read that state, and wrote an example client.
 - Connected the station layer to the robot's status messages over MQTT while keeping the integration read-only.
@@ -91,7 +93,7 @@ Authors: Norawit Nangsue, Tammarat Shubanchong, Teerapat Kasemvesaruchawut, **Bh
 
 *Jun 2026 — Jul 2026*
 
-- Developed and integrated the SLAM/localization subsystem using SLAM Toolbox, including ROS 2 launch/configuration, topic remapping, LiDAR/TF integration, and map generation.
+- Contributed to the SLAM/localization subsystem using SLAM Toolbox, including ROS 2 launch/configuration, topic remapping, LiDAR/TF integration, and map generation.
 - Tested and debugged the subsystem in Gazebo/RViz, addressing TF, mapping, localization, and LiDAR integration issues; real-robot tuning remains for the hardware-integration stage.
 
 <p align="center"><img src="assets/bhirabhat/carver-slam-map.png" width="600" alt="Carver SLAM map and ROS 2 visualization"/></p>
@@ -156,13 +158,14 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
   <img src="assets/bhirabhat/oil-skimmer-scraper.jpg" height="380" alt="Drum oil skimmer scraper"/>
 </p>
 
-#### 1-DOF Pick-and-Place Arm
+#### 1-DOF Revolute Pick-and-Place Robotic Arm
 
-*Year 2, Semester 2*
+*Year 2, Semester 2. Course project*
 
 - Designed the complete electrical/control system around an STM32G474RE, from component selection and EasyEDA schematics to control-box layout, wiring, assembly, and hardware testing.
 - Integrated 24 V sensors, encoder feedback, opto-isolated inputs, relay and pneumatic outputs, the motor drive, and emergency-stop circuitry.
 - Developed the firmware for sensor handling, homing, safety behavior, and command handling, and debugged the complete system on hardware.
+- Designed supports and mounting positions for the control box in SolidWorks, laying out the components from the parts available.
 - My contribution focused on electrical/control and integration; the mechanical arm structure was developed by other team members.
 
 <p align="center"><img src="assets/bhirabhat/1dof-arm-control-box-schematic.png" width="480" alt="1-DOF arm control-box schematic"/></p>
@@ -181,9 +184,11 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 
 #### ABU Robocon — Meihua
 
-- Handled the main mobile-base software integration using ROS 2 and micro-ROS, connecting high-level commands, low-level control, robot feedback, and interfaces contributed by multiple team members.
-- Tested and tuned the real robot in workshop and field conditions, focusing on straight-line motion, yaw response, motor behavior, encoder reliability, and ROS integration.
-- Supported debugging of low-level behavior and communication issues while integrating the mobile-base software.
+*Sep 2025 — May 2026*
+
+- Integrated mobile-base software using ROS 2 and micro-ROS, connecting high-level commands to the low-level interfaces and existing sensor feedback provided by teammates.
+- Tested the real robot in workshop and field conditions, focusing on straight-line motion, yaw response, motor and encoder behavior, and ROS integration.
+- Supported debugging of communication and integration issues between the mobile-base software and the low-level system.
 
 <p align="center">
   <img src="assets/bhirabhat/abu-robocon-field-test.jpg" height="360" alt="ABU Robocon robot field test"/>
@@ -192,7 +197,7 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 
 #### Junior Botball Challenge — Robotics Competition Trainer
 
-*Jul 2026 — Aug 2026*
+*Future Intel Academy (FIA), project-based. Jul 2026 — Aug 2026*
 
 - Trained and prepared a student robotics team in match strategy, route planning, teamwork, communication, and problem-solving under competition conditions.
 - Designed competition-style training problems, ran mock competitions, and supported robot debugging and strategy adjustments.
@@ -202,6 +207,12 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
   <img src="assets/bhirabhat/jbc-global-final-award.jpg" height="230" alt="Junior Botball Challenge Global Final 2026 award stage"/>
   <img src="assets/bhirabhat/jbc-training-mock-field.png" height="230" alt="Training a student team with a mock competition field"/>
 </p>
+
+#### CodeLab Thailand — Robotics & Programming Instructor (Part-time)
+
+*Jun 2025 — Present*
+
+- Teach Python, VEX IQ, and MakeX (Open Hardware) classes, including Arduino and RP2040 boards.
 
 ---
 
@@ -226,8 +237,9 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 
 ### Contact
 
-- **Email:** [bhirabhat.klom@mail.kmutt.ac.th](mailto:bhirabhat.klom@mail.kmutt.ac.th)
+- **Email:** [bhibhat26@gmail.com](mailto:bhibhat26@gmail.com)
+- **LinkedIn:** [bhirabhat-klomjit](https://www.linkedin.com/in/bhirabhat-klomjit-6a600b433/)
 - **LINE ID:** bhirabhat
 - **Discord:** paye_mumu
 
-<!-- TODO: Add Resume PDF and LinkedIn links when available. -->
+<!-- TODO: Add Resume PDF link when available. -->
