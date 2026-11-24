@@ -56,10 +56,6 @@ A LiDAR-based system for tracking wood piles so a wheel loader can handle them w
 Deployed on the station and used in on-site tests with the real robot; still an R&D prototype.
 
 <p align="center">
-  <img src="assets/bhirabhat/station-data-flow.png" width="600" alt="System data flow across sensing, station services, storage, decision outputs, and the validation interface"/>
-</p>
-
-<p align="center">
   <img src="assets/bhirabhat/station-operations-screen.png" height="250" alt="Operations screen for validating pile, storage-slot, furnace and robot data on a warehouse map (read-only)"/>
   <img src="assets/bhirabhat/station-pose-cross-check.png" height="250" alt="Cross-checking the robot pose drawn on our validation screen against the robot's own 3D viewer"/>
 </p>
