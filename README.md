@@ -194,13 +194,13 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
   <img src="assets/bhirabhat/abu-robocon-team-testing.jpg" height="360" alt="ABU Robocon team testing"/>
 </p>
 
-#### Junior Botball Challenge — Robotics Competition Trainer
+#### Junior Botball Challenge — Robotics Competition Coach
 
 *Future Intel Academy (FIA), project-based. Jul 2026 — Aug 2026*
 
-- Trained and prepared a student robotics team in match strategy, route planning, teamwork, communication, and problem-solving under competition conditions.
+- Coached two primary-school teams (eight students) in the Beginner and Rookie categories, preparing them in match strategy, route planning, teamwork, communication, and problem-solving under competition conditions.
 - Designed competition-style training problems, ran mock competitions, and supported robot debugging and strategy adjustments.
-- The team received a Gold Award at the JBC Global Final 2026 in Beijing, China.
+- Both teams earned Gold Awards at the 2026 Junior Botball Challenge Global Finals in Beijing, China.
 
 <p align="center">
   <img src="assets/bhirabhat/jbc-global-final-award.jpg" height="230" alt="Junior Botball Challenge Global Final 2026 award stage"/>
