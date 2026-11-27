@@ -43,9 +43,9 @@ Robotics & Automation Engineering student at **FIBO, KMUTT** with hands-on exper
 
 #### FIBO — Pile Monitoring & Industrial Station Integration
 
-*Apr 2026 — Present. R&D prototype for an industrial wood-handling site*
+*FIBO Technovation, Student R&D Assistant (part-time). Apr 2026 — Present. Client-commissioned R&D prototype for an industrial wood-handling site*
 
-A LiDAR-based system for tracking wood piles so a wheel loader can handle them with less manual work. Processed LiDAR data and the decision algorithm come from other teams; I worked on the station-side layer that turns the height grid into pile and slot state and connects it to the robot and the operators.
+A LiDAR-based system for tracking wood piles to support autonomous material handling. Processed LiDAR data and the decision algorithm come from other teams; I worked on the station-side layer that turns the height grid into pile and slot state and connects it to the robot and the operators.
 
 - Developed the pile-processing layer on the processed LiDAR height grid: transformed it into the robot's map frame, masked blind zones, separated piles with connected components, merged nearby peaks, tracked piles with persistent IDs, and estimated pile and storage-slot volume.
 - Designed the database and state logic (PostgreSQL) that turn processed LiDAR output into pile and storage-slot state.
@@ -65,7 +65,7 @@ Deployed on the station and used in on-site tests with the real robot; still an 
 
 #### Warehouse AMR — Robot Interface Web App & ROS 2 Integration
 
-*Dec 2025 — May 2026*
+*FIBO Technovation, Student R&D Assistant (part-time). Client-commissioned project. Dec 2025 — May 2026*
 
 - Developed the robot-interface web application for a warehouse AMR, covering manual control, mission execution, robot status, error and status handling, and operator workflows.
 - Built a ROS 2 action bridge between the web application and ROS 2, since the action workflow could not be handled through direct WebSocket alone, and integrated ROS 2 actions, topics, services, feedback, and robot state.
@@ -192,6 +192,20 @@ Owned the GPS-to-robot-odometry alignment task and tested it with real hardware 
 <p align="center">
   <img src="assets/bhirabhat/abu-robocon-field-test.jpg" height="360" alt="ABU Robocon robot field test"/>
   <img src="assets/bhirabhat/abu-robocon-team-testing.jpg" height="360" alt="ABU Robocon team testing"/>
+</p>
+
+#### Robotex International 2026 — LEGO Line Following
+
+*Future Intel Academy (FIA), project-based. Competition: 28–29 November 2026, Korea*
+
+- Lead a school team preparing for the competition, covering robot design, programming, and student coaching.
+- Design the LEGO line-following robot, integrate its sensors, and develop its line-following control.
+- Test and tune the robot iteratively while coaching the students.
+- Designed an electrical timer box in SolidWorks for timing runs.
+
+<p align="center">
+  <img src="assets/bhirabhat/robotex-2026-line-follower-robot.jpg" height="300" alt="LEGO line-following robot for Robotex International 2026"/>
+  <img src="assets/bhirabhat/robotex-2026-practice-session.jpg" height="300" alt="Line-following practice session with students"/>
 </p>
 
 #### Junior Botball Challenge — Robotics Competition Coach
